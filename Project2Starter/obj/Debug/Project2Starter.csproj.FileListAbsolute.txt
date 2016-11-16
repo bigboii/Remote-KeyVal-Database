@@ -1,0 +1,6 @@
+C:\Users\YQ\Desktop\CSE681 SMA\Project4\CommPrototype\Project2Starter\bin\Debug\Project2Starter.exe.config
+C:\Users\YQ\Desktop\CSE681 SMA\Project4\CommPrototype\Project2Starter\bin\Debug\Project2Starter.exe
+C:\Users\YQ\Desktop\CSE681 SMA\Project4\CommPrototype\Project2Starter\bin\Debug\Project2Starter.pdb
+C:\Users\YQ\Desktop\CSE681 SMA\Project4\CommPrototype\Project2Starter\obj\Debug\Project2Starter.csprojResolveAssemblyReference.cache
+C:\Users\YQ\Desktop\CSE681 SMA\Project4\CommPrototype\Project2Starter\obj\Debug\Project2Starter.exe
+C:\Users\YQ\Desktop\CSE681 SMA\Project4\CommPrototype\Project2Starter\obj\Debug\Project2Starter.pdb

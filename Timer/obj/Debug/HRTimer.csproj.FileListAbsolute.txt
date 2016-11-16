@@ -1,0 +1,6 @@
+C:\Users\YQ\Desktop\CSE681 SMA\Project4\CommPrototype\Timer\bin\Debug\Timer.exe.config
+C:\Users\YQ\Desktop\CSE681 SMA\Project4\CommPrototype\Timer\bin\Debug\Timer.exe
+C:\Users\YQ\Desktop\CSE681 SMA\Project4\CommPrototype\Timer\bin\Debug\Timer.pdb
+C:\Users\YQ\Desktop\CSE681 SMA\Project4\CommPrototype\Timer\obj\Debug\HRTimer.csprojResolveAssemblyReference.cache
+C:\Users\YQ\Desktop\CSE681 SMA\Project4\CommPrototype\Timer\obj\Debug\Timer.exe
+C:\Users\YQ\Desktop\CSE681 SMA\Project4\CommPrototype\Timer\obj\Debug\Timer.pdb

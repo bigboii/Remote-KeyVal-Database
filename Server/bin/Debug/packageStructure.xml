@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Demonstrating Requirement #9 : Package Structure -->
+<db>
+  <keytype>string</keytype>
+  <payloadType>string</payloadType>
+	<key>TestExec</key>
+	<element>
+		<name>TextExec.cs</name>
+		<descr>Dependency Relationship of TestExec</descr>
+		<timestamp>2015-10-07T09:32:19.6891636-04:00</timestamp>
+		<children>
+			<key>DBElement</key>
+			<key>DBEngine</key>
+			<key>DBExtensions</key>
+			<key>DBFactory</key>
+			<key>Display</key>
+			<key>PersistEngine</key>
+			<key>QueryEngine</key>
+			<key>Scheduler </key>
+			<key>UtilityExtensions</key>
+		</children>
+		<payload />
+	</element>
+	<key>DBElement</key>
+	<element>
+		<name>DBElement.cs</name>
+		<descr>Dependency Relationship of DBElement</descr>
+		<timestamp>2015-10-07T09:32:19.6891636-04:00</timestamp>
+		<children />
+		<payload />
+	</element>
+	<key>DBEngine</key>
+	<element>
+		<name>DBEngine.cs</name>
+		<descr>Dependency Relationship of DBEngine</descr>
+		<timestamp>2015-10-07T09:32:19.6891636-04:00</timestamp>
+		<children>
+			<key>DBElement</key>
+			<key>UtilityExtensions</key>
+		</children>
+		<payload />
+	</element>
+	<key>DBExtensions</key>
+	<element>
+		<name>DBExtensions.cs</name>
+		<descr>Dependency Relationship of DBExtensions</descr>
+		<timestamp>2015-10-07T09:32:19.6891636-04:00</timestamp>
+		<children>
+			<key>DBElement</key>
+			<key>DBEngine</key>
+			<key>DBFactory</key>
+			<key>UtilityExtensions</key>
+		</children>
+		<payload />
+	</element>
+	<key>DBFactory</key>
+	<element>
+		<name>DBFactory.cs</name>
+		<descr>Dependency Relationship of DBFactory</descr>
+		<timestamp>2015-10-07T09:32:19.6891636-04:00</timestamp>
+		<children>
+				<key>DBElement</key>
+		</children>
+		<payload />
+	</element>
+	<key>Display</key>
+	<element>
+		<name>Display.cs</name>
+		<descr>Dependency Relationship of Display</descr>
+		<timestamp>2015-10-07T09:32:19.6891636-04:00</timestamp>
+		<children>
+				<key>DBElement</key>
+				<key>DBEngine</key>
+				<key>DBExtensions</key>
+				<key>DBFactory</key>
+				<key>UtilityExtensions</key>				
+		</children>
+		<payload />
+	</element>
+	<key>PersistEngine</key>
+	<element>
+		<name>PersistEngine.cs</name>
+		<descr>Dependency Relationship of PersistEngine</descr>
+		<timestamp>2015-10-07T09:32:19.6891636-04:00</timestamp>
+		<children>
+				<key>DBElement</key>
+				<key>DBEngine</key>			
+		</children>
+		<payload />
+	</element>
+	<key>QueryEngine</key>
+	<element>
+		<name>QueryEngine.cs</name>
+		<descr>Dependency Relationship of QueryEngine</descr>
+		<timestamp>2015-10-07T09:32:19.6891636-04:00</timestamp>
+		<children>
+				<key>DBElement</key>
+				<key>DBEngine</key>	
+				<key>DBExtensions</key>
+				<key>Display</key>					
+		</children>
+		<payload />
+	</element>
+	<key>Scheduler</key>
+	<element>
+		<name>Scheduler.cs</name>
+		<descr>Dependency Relationship of Scheduler</descr>
+		<timestamp>2015-10-07T09:32:19.6891636-04:00</timestamp>
+		<children>
+				<key>DBEngine</key>						
+		</children>
+		<payload />
+	</element>
+	<key>UtilityExtensions</key>
+	<element>
+		<name>UtilityExtensions.cs</name>
+		<descr>Dependency Relationship of UtilityExtensions</descr>
+		<timestamp>2015-10-07T09:32:19.6891636-04:00</timestamp>
+		<children />
+		<payload />
+	</element>
+	<keycount>10</keycount>
+</db>
+

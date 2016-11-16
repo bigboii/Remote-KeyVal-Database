@@ -1,0 +1,27 @@
+<stresstest>
+	<testnum>1</testnum>
+	<test>
+		<operation>valueOfKey</operation>
+		<reps>50</reps>
+	</test>
+	<testnum>2</testnum>
+	<test>
+		<operation>childrenOfKey</operation>
+		<reps>50</reps>
+	</test>
+	<testnum>3</testnum>
+	<test>
+		<operation>patternSearch</operation>
+		<reps>50</reps>
+	</test>
+	<testnum>4</testnum>
+	<test>
+		<operation>stringSearch</operation>
+		<reps>50</reps>
+	</test>
+	<testnum>5</testnum>
+	<test>
+		<operation>timeSearch</operation>
+		<reps>50</reps>
+	</test>	
+</stresstest>

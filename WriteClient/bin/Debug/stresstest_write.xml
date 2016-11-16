@@ -1,0 +1,17 @@
+<stresstest>
+	<testnum>1</testnum>
+	<test>
+		<operation>add</operation>
+		<reps>100</reps>
+	</test>
+	<testnum>2</testnum>
+	<test>
+		<operation>update</operation>
+		<reps>100</reps>
+	</test>
+	<testnum>3</testnum>
+	<test>
+		<operation>delete</operation>
+		<reps>50</reps>
+	</test>
+</stresstest>
